@@ -1,0 +1,18 @@
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+.text-brand { color: #07417A !important; }
+.text-brand2 { color: #3C7FB5 !important; }
+.text-brand3 { color: #3DB188 !important; }
+.text-brand4 { color: #68B764 !important; }
+.text-brand5 { color: #C6D74B !important; }
+.intro h1 { font-weight: 400; letter-spacing: 1px; }
+.intro h1 strong { font-weight: 500; }
+.intro h2 { font-weight: 300; letter-spacing: 1px; }
+.lifecycle { color: #666; font-size: 2.5rem; letter-spacing: 0.3rem; font-weight: 200; height: 60px; line-height: 60px; margin-top: -30px; padding-left: 15px; padding-right: 15px; position: absolute; top: 50%; width: 100%; opacity: 0.5; }
+.lifecycle p { -webkit-backface-visibility: hidden; }
+.product:hover { opacity: 0.7; text-decoration: none; }
+.top-bg{ position: relative; z-index: 2; }
+.top-bg::before { position: absolute; bottom: 4%; left: -36%; height: 1000px; width: 1150px; background: url(/img/bg-left.png); background-position-x: 0%; background-position-y: 0%; background-size: auto auto; content: ""; background-position: center; background-size: cover; -webkit-transform: rotate(-3deg); -ms-transform: rotate(-3deg); transform: rotate(-3deg); z-index: -1; }
+.bg { position: relative; overflow: hidden; }
+.bg::before { position: absolute; content: ""; height: 1560px; width: 2000px; top: -1%; right: -95%; background: url(/img/bg-right.png); background-position-x: 0%; background-position-y: 0%; background-size: auto auto; background-position-x: 0%; background-position-y: 0%; background-size: auto auto; background-position-x: 0%; background-position-y: 0%; background-size: auto auto; background-position: center; background-size: cover; z-index: -1; -webkit-transform: rotate(23deg); -ms-transform: rotate(23deg); transform: rotate(23deg); }
+@media (max-width: 767px) { .top-bg::before{display: none} .top-bg::after{display: none}  .bg::before{display: none} .bg::after{display: none} }
